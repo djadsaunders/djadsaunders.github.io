@@ -8,5 +8,21 @@ title: "Home"
 I'm an experienced, enthusiastic and hands-on technical leader 
 with a great track record from coding and architecture to team leadership, scrum mastery and development management.
 
-### Click below to see what I can help with
+---
 
+{:.lead}
+You can see my [work experience here](/xp), or take a look at some [projects](/projects) I've been working on
+
+---
+
+{:.lead}
+Or choose an option below to see what I can help with
+
+{:.lead}
+[Software Design and Coding]()
+
+{:.lead}
+[Management and Leadership]()
+
+{:.lead}
+[Agile and Scrum]()
