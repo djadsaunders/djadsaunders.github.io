@@ -21,7 +21,7 @@ permalink: /projects/
 
 Here are some of the projects and applications I have worked on. In the main, these are for experimentation with technologies or to explore solutions to problems.
 
-**Click on each card for more details, or the Github logo to go to the source code.**
+**Click the Github logo to go to the source code for each project**
 
 <div class="container">
 

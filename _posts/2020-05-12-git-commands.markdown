@@ -9,7 +9,7 @@ Here are some useful Git commands..
 
 **Clone repository**
 
-    git clone path_to_repository`
+    git clone path_to_repository
 
 **Pull and overwrite existing changes**
 
