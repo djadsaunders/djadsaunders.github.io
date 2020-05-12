@@ -5,63 +5,75 @@ permalink: /projects/
 ---
 
 <style>
-    .container {
+    .card {
+        background-color: #555;
         border: 1px solid gray;
-        margin: 1em;
-        padding: 0.5em;
-        text-align: left;
+        margin: 0.2em;
+    }
+
+    .github-icon {
+        width: 40px;
+        height: 40px;
     }
 </style>
 
 # Projects
 
-Here are some of the projects and applications I have worked on. Some of these are projects I have built to experiment with technologies or explore solutions to problems. Often these are "kitchen sink" type projects with examples and demos of technologies.
+Here are some of the projects and applications I have worked on. In the main, these are for experimentation with technologies or to explore solutions to problems.
+
+**Click on each card for more details, or the Github logo to go to the source code.**
 
 <div class="container">
-    <h4>Raspberry PI (IOT)</h4>
-    <p>Taking signals from a Raspberry PI using MQTT and displaying on a dashboard</p>
-    <div class="badge badge-pill badge-secondary">Python</div>
-    <div class="badge badge-pill badge-secondary">Mosquitto</div>
-    <div class="badge badge-pill badge-secondary">Node Red</div>
-    <br/><br/>
-    <button type="button" class="btn btn-primary">
-        Learn more
-    </button>
-    <button type="button" class="btn btn-primary" 
-        href="https://github.com/djadsaunders/rpi-sensors.git">
-        View source
-    </button>
+
+<div class="row">
+
+<div class="card">
+    <div class="card-body">
+        <h4>Raspberry PI (IOT)</h4>
+        <p>Taking signals from a Raspberry PI using MQTT and displaying on a dashboard</p>
+        <div class="badge badge-pill badge-secondary">Python</div>
+        <div class="badge badge-pill badge-secondary">Mosquitto</div>
+        <div class="badge badge-pill badge-secondary">Node Red</div>
+        <div class="badge badge-pill badge-secondary">Node.JS</div>
+        <br/><br/>
+        <a href="https://github.com/djadsaunders/rpi-sensors.git">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a>
+    </div>
 </div>
 
-<div class="container">
-    <h4>MES System</h4>
-    <p>Experiments with MES functionality (data capture, visualisation etc.)</p>
-    <div class="badge badge-pill badge-secondary">Spring Boot</div>
-    <div class="badge badge-pill badge-secondary">Kafka</div>
-    <div class="badge badge-pill badge-secondary">Docker</div>
-    <div class="badge badge-pill badge-secondary">Node.JS</div>
-    <div class="badge badge-pill badge-secondary">Angular 2</div>
-    <br/><br/>
-    <button type="button" class="btn btn-primary">
-        Learn more
-    </button>
-    <button type="button" class="btn btn-primary" 
-        href="https://github.com/djadsaunders/rpi-sensors.git">
-        View source
-    </button>
+<div class="card">
+    <div class="card-body">
+        <h4>This website</h4>
+        <div class="badge badge-pill badge-secondary">Jekyll</div>
+        <div class="badge badge-pill badge-secondary">Bootstrap</div>
+        <div class="badge badge-pill badge-secondary">SASS</div>
+        <div class="badge badge-pill badge-secondary">HTML</div>
+        <div class="badge badge-pill badge-secondary">CSS</div>
+        <div class="badge badge-pill badge-secondary">Github Pages</div>
+        <br/><br/>
+        <a href="https://github.com/djadsaunders/rpi-sensors.git">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a>
+    </div>
 </div>
 
-<div class="container">
-    <h4>This website</h4>
-    <div class="badge badge-pill badge-secondary">Jekyll</div>
-    <div class="badge badge-pill badge-secondary">Bootstrap</div>
-    <div class="badge badge-pill badge-secondary">SASS</div>
-    <br/><br/>
-    <button type="button" class="btn btn-primary">
-        Learn more
-    </button>
-    <button type="button" class="btn btn-primary" 
-        href="https://github.com/djadsaunders/rpi-sensors.git">
-        View source
-    </button>
+<div class="card">
+    <div class="card-body">
+        <h4>MES System</h4>
+        <p>Experiments with MES functionality (data capture, visualisation etc.)</p>
+        <div class="badge badge-pill badge-secondary">Spring Boot</div>
+        <div class="badge badge-pill badge-secondary">Kafka</div>
+        <div class="badge badge-pill badge-secondary">Docker</div>
+        <div class="badge badge-pill badge-secondary">Node.JS</div>
+        <div class="badge badge-pill badge-secondary">Angular 2</div>
+        <br/><br/>
+        <a href="https://github.com/djadsaunders/rpi-sensors.git">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a>
+    </div>
+</div>
+
+</div>
+
 </div>

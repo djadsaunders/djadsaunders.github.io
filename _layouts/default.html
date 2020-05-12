@@ -3,14 +3,14 @@
 
   {% include head.html %}    
 
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <body>
+    <div class="d-flex p-3 flex-column w-100">
 
       {% include header.html %}
 
-      <main role="main" class="inner cover">
+      <div class="container-sm content-area">
         {{ content }}
-      </main>
+      </div>
 
       {% include footer.html %}  
 

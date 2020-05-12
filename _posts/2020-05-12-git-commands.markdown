@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Git Commands"
+date:   2020-05-12 14:34:57 +0100
+categories: git
+---
+
+Here are some useful Git commands..
+
+**Clone repository**
+
+    git clone path_to_repository`
+
+**Pull and overwrite existing changes**
+
+    git fetch --all
+    git reset --hard origin/master
+
+**Set Windows integrated authentication**
+
+    git config --global credential.http://servername:port.integrated true
+
+**Store credentials locally (avoid having to retype username/password but stores credentials in plain text)**
+
+    git remote set-url origin https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git

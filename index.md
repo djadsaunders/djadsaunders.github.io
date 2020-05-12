@@ -16,13 +16,13 @@ You can see my [work experience here](/xp), or take a look at some [projects](/p
 ---
 
 {:.lead}
-Or choose an option below to see what I can help with
+Or choose an topic below to see what I can help with
 
 {:.lead}
-[Software Design and Coding]()
+[Product Design and Coding](/coding)
 
 {:.lead}
-[Management and Leadership]()
+[Management and Leadership](/management)
 
 {:.lead}
-[Agile and Scrum]()
+[Agile and Scrum](/agile)
