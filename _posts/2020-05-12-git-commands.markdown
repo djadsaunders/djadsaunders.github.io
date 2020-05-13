@@ -3,6 +3,8 @@ layout: post
 title:  "Git Commands"
 date:   2020-05-12 14:34:57 +0100
 categories: git
+excerpt: Some useful Git commands
+sticky: true
 ---
 
 Here are some useful Git commands..

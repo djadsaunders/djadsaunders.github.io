@@ -16,10 +16,10 @@ You can see my [work experience here](/xp), or take a look at some [projects](/p
 ---
 
 {:.lead}
-Or choose an topic below to see what I can help with
+Or choose a role below to see what I can help with
 
 {:.lead}
-[Product Design and Coding](/coding)
+[Product Design and Development](/coding)
 
 {:.lead}
 [Management and Leadership](/management)
