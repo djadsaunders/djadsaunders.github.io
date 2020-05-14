@@ -27,7 +27,7 @@ Here are some of the projects and applications I have worked on. In the main, th
 
 <div class="row">
 
-<div class="card" style="width: 50%">
+<div class="card">
     <div class="card-body">
         <h4>Raspberry PI (IOT)</h4>
         <p>Taking signals from a Raspberry PI using MQTT and displaying on a dashboard</p>
