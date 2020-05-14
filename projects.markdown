@@ -15,6 +15,14 @@ permalink: /projects/
         width: 40px;
         height: 40px;
     }
+
+    .card-title {
+        float: left;
+    }
+
+    .github-link {
+        float: right;
+    }
 </style>
 
 # Projects
@@ -29,23 +37,27 @@ Here are some of the projects and applications I have worked on. In the main, th
 
 <div class="card">
     <div class="card-body">
-        <h4>Raspberry PI (IOT)</h4>
-        <p>Taking signals from a Raspberry PI using MQTT and displaying on a dashboard</p>
+        <h4 class="card-title">Raspberry PI IOT</h4>
+        <a class="github-link" href="https://github.com/djadsaunders/rpi-sensors.git">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a><br/><br/>
         <div class="badge badge-pill badge-secondary">Python</div>
+        <div class="badge badge-pill badge-secondary">IOT</div>
+        <div class="badge badge-pill badge-secondary">MQTT</div>
         <div class="badge badge-pill badge-secondary">Mosquitto</div>
-        <div class="badge badge-pill badge-secondary">Node Red</div>
         <div class="badge badge-pill badge-secondary">Node.JS</div>
         <br/><br/>
-        <a href="https://github.com/djadsaunders/rpi-sensors.git">
-          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
-        </a>
+        How to read signals from a Raspberry PI and display through a web UI.<br/>
+        This is a simple example of IOT.
     </div>
 </div>
 
 <div class="card">
     <div class="card-body">
-        <h4>This website</h4>
-        <p>What you see here, hosted using Github Pages</p>
+        <h4 class="card-title">This website</h4>
+        <a class="github-link" href="https://github.com/djadsaunders/djadsaunders.github.io">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a><br/><br/>
         <div class="badge badge-pill badge-secondary">Jekyll</div>
         <div class="badge badge-pill badge-secondary">Bootstrap</div>
         <div class="badge badge-pill badge-secondary">SASS</div>
@@ -53,25 +65,24 @@ Here are some of the projects and applications I have worked on. In the main, th
         <div class="badge badge-pill badge-secondary">CSS</div>
         <div class="badge badge-pill badge-secondary">Github Pages</div>
         <br/><br/>
-        <a href="https://github.com/djadsaunders/djadsaunders.github.io">
-          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
-        </a>
+        What you see here, hosted using Github Pages.<br/>All front-end development.
     </div>
 </div>
 
 <div class="card">
     <div class="card-body">
-        <h4>MES System</h4>
-        <p>Experiments with MES functionality (data capture, visualisation etc.)</p>
+        <h4 class="card-title">MES System</h4>
+        <a class="github-link" href="https://github.com/djadsaunders/mes.git">
+          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
+        </a><br/><br/>
         <div class="badge badge-pill badge-secondary">Spring Boot</div>
         <div class="badge badge-pill badge-secondary">Kafka</div>
         <div class="badge badge-pill badge-secondary">Docker</div>
         <div class="badge badge-pill badge-secondary">Node.JS</div>
         <div class="badge badge-pill badge-secondary">Angular 2</div>
         <br/><br/>
-        <a href="https://github.com/djadsaunders/rpi-sensors.git">
-          <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
-        </a>
+        Experiments with MES functionality (data capture, visualisation etc.)<br/>
+        This is mostly focussed on back-end Java and streaming technology.
     </div>
 </div>
 
