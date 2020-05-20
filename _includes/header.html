@@ -12,10 +12,10 @@
         </a>
       </div>
       <nav class="nav nav-masthead justify-content-right">
-        <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="/xp">XP</a>
-        <a class="nav-link" href="/projects">Projects</a>
-        <a class="nav-link" href="/links">Links</a>
+        <a class="nav-link {% if include.current=='/home/' %}active{% endif %}" href="/">Home</a>
+        <a class="nav-link {% if include.current=='/xp/' %}active{% endif %}" href="/xp">XP</a>
+        <a class="nav-link {% if include.current=='/projects/' %}active{% endif %}" href="/projects">Projects</a>
+        <a class="nav-link {% if include.current=='/links/' %}active{% endif %}" href="/links">Links</a>
       </nav>
     </div>
 </header>

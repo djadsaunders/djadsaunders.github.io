@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
 
+  {% capture thispage %}{{ page.permalink }}{% endcapture %}
+
   {% include head.html %}    
 
   <body>
     <div class="d-flex p-3 flex-column w-100">
 
-      {% include header.html %}
+      {% include header.html current=thispage %}
 
       <div class="container-md content-area">
         {{ content }}
