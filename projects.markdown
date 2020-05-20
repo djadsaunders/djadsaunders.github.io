@@ -76,10 +76,13 @@ Here are some of the projects and applications I have worked on. In the main, th
           <img class="github-icon" src="{{ "assets/images/github.png" | relative_url }}"/>
         </a><br/><br/>
         <div class="badge badge-pill badge-secondary">Spring Boot</div>
+        <div class="badge badge-pill badge-secondary">Microservices</div>
         <div class="badge badge-pill badge-secondary">Kafka</div>
         <div class="badge badge-pill badge-secondary">Docker</div>
         <div class="badge badge-pill badge-secondary">Node.JS</div>
         <div class="badge badge-pill badge-secondary">Angular 2</div>
+        <div class="badge badge-pill badge-secondary">JPA</div>
+        <div class="badge badge-pill badge-secondary">Hibernate</div>
         <br/><br/>
         Experiments with MES functionality (data capture, visualisation etc.)<br/>
         This is mostly focussed on back-end Java and streaming technology.
