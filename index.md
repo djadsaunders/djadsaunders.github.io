@@ -4,6 +4,14 @@ title: "Home"
 ---
 # Hi, I'm Dan Saunders!
 
+<style>
+    .tick-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 0.5em;
+    }
+</style>
+
 {:.lead}
 I'm an experienced, enthusiastic and hands-on technical leader 
 with a great track record from coding and architecture to team leadership, scrum mastery and development management.
@@ -16,13 +24,13 @@ You can see my [work experience here](/xp), or take a look at some [projects](/p
 ---
 
 {:.lead}
-Choose a role below to see what I can help with
+Choose an option below to see what I can help with
 
 {:.lead}
-[Product Design and Development](/coding)
+<img class="tick-icon" src="{{ "assets/images/checkmark.png" | relative_url }}" />[Product Design and Development](/coding)
 
 {:.lead}
-[Management and Leadership](/management)
+<img class="tick-icon" src="{{ "assets/images/checkmark.png" | relative_url }}" />[Management and Leadership](/management)
 
 {:.lead}
-[Agile and Scrum](/agile)
+<img class="tick-icon" src="{{ "assets/images/checkmark.png" | relative_url }}" />[Agile and Scrum](/agile)
