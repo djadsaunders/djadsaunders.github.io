@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Agile
+title: Agile and Scrum
 permalink: /agile/
 ---
-
-# Agile and Scrum
 
 I am PSM certified and I am very familiar with coaching teams on Scrum and designing and rolling out SDLC processes and practices.
 

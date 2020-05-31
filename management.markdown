@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Management
+title: Management and Leadership
 permalink: /management/
 ---
-
-# Management and Leadership
 
 Early in my career I took a leadership role; initially Technical Lead for a number of products then on to Delivery Management and Line Management in a range of contexts.
 

@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Coding
+title: Product Design and Coding
 permalink: /coding/
 ---
-
-# Product Design and Coding
 
 I started my career as a developer and I have many years experience designing and coding software applications.
 
