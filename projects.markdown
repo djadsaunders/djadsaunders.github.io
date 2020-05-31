@@ -25,8 +25,6 @@ permalink: /projects/
     }
 </style>
 
-# Projects
-
 Here are some of the projects and applications I have worked on. In the main, these are for experimentation with technologies or to explore solutions to problems.
 
 **Click the Github logo to go to the corresponding project page including source code**
@@ -63,6 +61,7 @@ Here are some of the projects and applications I have worked on. In the main, th
         <div class="badge badge-pill badge-secondary">SASS</div>
         <div class="badge badge-pill badge-secondary">HTML</div>
         <div class="badge badge-pill badge-secondary">CSS</div>
+        <div class="badge badge-pill badge-secondary">Fontawesome</div>
         <div class="badge badge-pill badge-secondary">Github Pages</div>
         <br/><br/>
         What you see here, hosted using Github Pages.<br/>All front-end development.

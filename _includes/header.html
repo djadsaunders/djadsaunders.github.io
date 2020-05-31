@@ -10,12 +10,13 @@
         <a href="https://stackoverflow.com/users/840610/dan-saunders">
           <img class="header-icon" src="{{ "assets/images/so.png" | relative_url }}">
         </a>
+        <span class="page-title">{{ page.title }}</span>
       </div>
       <nav class="nav nav-masthead justify-content-right">
         <a class="nav-link {% if include.current=='/home/' %}active{% endif %}" href="/">Home</a>
         <a class="nav-link {% if include.current=='/xp/' %}active{% endif %}" href="/xp">XP</a>
         <a class="nav-link {% if include.current=='/projects/' %}active{% endif %}" href="/projects">Projects</a>
-        <a class="nav-link {% if include.current=='/links/' %}active{% endif %}" href="/links">Links</a>
+        <a class="nav-link {% if include.current=='/blog/' %}active{% endif %}" href="/blog">Blog</a>
       </nav>
     </div>
 </header>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: XP and Skills
+title: Work Experience
 permalink: /xp/
 ---
 
@@ -13,7 +13,7 @@ permalink: /xp/
 }
 </style>
 
-# Work Experience
+<br/>
 
 ### Development Director
 *Aptean/Avolin 2012-2019*
