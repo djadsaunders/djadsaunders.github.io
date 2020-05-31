@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 
+title: " "
 ---
 # Hi, I'm Dan Saunders!
 
