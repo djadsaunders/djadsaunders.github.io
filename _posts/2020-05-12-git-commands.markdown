@@ -22,6 +22,10 @@ Here are some useful Git commands..
 
     git config --global credential.http://servername:port.integrated true
 
-**Store credentials locally (avoid having to retype username/password but stores credentials in plain text)**
+**Store credentials in repo config (WARNING: stores credentials in plain text)**
 
     git remote set-url origin https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
+
+**Store credentials locally in credentials store (WARNING: stores credentials in plain text**
+
+    git config --global credential.helper store
